@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Load Offline Service Definition from GitHub</title>
+  <title>Load Offline Service Definition from Local Directory</title>
   <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
   <script src="https://js.arcgis.com/4.18/"></script>
   <style>
@@ -23,11 +23,9 @@
       "esri/layers/TileLayer",
       "esri/request"
     ], function(Map, MapView, TileLayer, esriRequest) {
-      var sdFileUrl = "https://raw.githubusercontent.com/Tyex2004/canton-mtr/main/Tyex_Canton_MTR.sd";
-      var proxyUrl = "https://api.allorigins.win/raw?url=";
-      var fullUrl = proxyUrl + encodeURIComponent(sdFileUrl);
+      var sdFileUrl = "Tyex_Canton_MTR.sd";
 
-      esriRequest(fullUrl, {
+      esriRequest(sdFileUrl, {
         responseType: "blob"
       }).then(function(response) {
         var blob = response.data;
