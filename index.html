@@ -24,8 +24,8 @@
       "esri/request"
     ], function(Map, MapView, TileLayer, esriRequest) {
       var sdFileUrl = "https://raw.githubusercontent.com/Tyex2004/canton-mtr/main/Tyex_Canton_MTR.sd";
-      var proxyUrl = "https://cors-anywhere.herokuapp.com/";
-      var fullUrl = proxyUrl + sdFileUrl;
+      var proxyUrl = "https://api.allorigins.win/raw?url=";
+      var fullUrl = proxyUrl + encodeURIComponent(sdFileUrl);
 
       esriRequest(fullUrl, {
         responseType: "blob"
