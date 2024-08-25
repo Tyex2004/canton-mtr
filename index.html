@@ -23,7 +23,11 @@
       "esri/layers/TileLayer",
       "esri/request"
     ], function(Map, MapView, TileLayer, esriRequest) {
-      esriRequest("https://github.com/Tyex2004/canton-mtr/raw/main/Tyex_Canton_MTR.sd", {
+      var sdFileUrl = "https://github.com/Tyex2004/canton-mtr/raw/main/Tyex_Canton_MTR.sd";
+      var proxyUrl = "https://cors-anywhere.herokuapp.com/";
+      var fullUrl = proxyUrl + sdFileUrl;
+
+      esriRequest(fullUrl, {
         responseType: "blob"
       }).then(function(response) {
         var blob = response.data;
@@ -37,6 +41,8 @@
           container: "viewDiv",
           map: map
         });
+      }).catch(function(error) {
+        console.error("Error loading SD file:", error);
       });
     });
   </script>
