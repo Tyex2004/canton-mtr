@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ESRI_ItemInformation Culture='zh-CN'>
+<name>tyexcantonmtr</name>
+<guid>68013F2D-685F-400F-B5BB-0D2DC36E0020</guid>
+<version>1.0</version>
+<created></created>
+<modified></modified>
+<catalogpath></catalogpath>
+<snippet>tyexcantonmtr</snippet>
+<description></description>
+<summary>tyexcantonmtr</summary>
+<title>tyexcantonmtr</title>
+<tags>tyexcantonmtr</tags>
+<type>Service Definition</type>
+<typekeywords>
+<typekeyword>ArcGIS</typekeyword>
+<typekeyword>Service Definition</typekeyword>
+<typekeyword>.sd</typekeyword>
+</typekeywords>
+<thumbnail>thumbnail/thumbnail.png</thumbnail>
+<documentation></documentation>
+<url></url>
+<extent>
+<xmin>112.881888103815</xmin>
+<ymin>22.107238547024</ymin>
+<xmax>114.063282875412</xmax>
+<ymax>23.7179455747833</ymax>
+</extent>
+<spatialreference>WGS_1984_Web_Mercator_Auxiliary_Sphere</spatialreference>
+<minScale>0</minScale>
+<maxScale>1.7976931348623157e+308</maxScale>
+<datalastModifiedTime></datalastModifiedTime>
+<accessinformation></accessinformation>
+<licenseinfo></licenseinfo>
+</ESRI_ItemInformation>

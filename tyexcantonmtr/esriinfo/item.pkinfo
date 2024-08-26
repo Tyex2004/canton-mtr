@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.arcgisonline.com/home/pkinfostylesheet.xsl"?>
+<pkinfo Culture='zh-CN'>
+<ID>68013F2D-685F-400F-B5BB-0D2DC36E0020</ID>
+<name>tyexcantonmtr</name>
+<version>12.9</version>
+<size>-1</size>
+<created></created>
+<type>Service Definition</type>
+<servable>true</servable>
+<packagelocation></packagelocation>
+<pkinfolocation></pkinfolocation>
+<documenttypes>
+<documenttype>msd</documenttype>
+</documenttypes>
+</pkinfo>
